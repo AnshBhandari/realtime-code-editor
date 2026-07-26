@@ -97,8 +97,8 @@ const EditorPage = () => {
       <div className="aside">
         <div className="asideInner">
           <div className="logo">
-            {/* <img src="/CodeZ.png" alt="CodeZ" /> */}
-            <h1 style={{ color: "#fff", fontFamily: "cursive" }}>CodeZ</h1>
+            {/* <img src="/CodeEz.png" alt="CodeEz" /> */}
+            <h1 style={{ color: "#fff", fontFamily: "cursive" }}>CodeEz</h1>
           </div>
           <h3>Connected</h3>
           <div className="usersList">

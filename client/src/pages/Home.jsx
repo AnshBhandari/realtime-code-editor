@@ -55,10 +55,10 @@ const Home = () => {
       <div className="formWrapper">
         {/* <img
           className="homePageLogo"
-          src="/CodeZ.png"
-          alt="CodeZ-logo"
+          src="/CodeEz.png"
+          alt="CodeEz-logo"
         /> */}
-        <h1 style={{ color: "#fff", fontFamily: "cursive" }}>CodeZ</h1>
+        <h1 style={{ color: "#fff", fontFamily: "cursive" }}>CodeEz</h1>
         <h4 className="mainLabel">Paste invitation Room ID</h4>
         <div className="inputGroup">
           {/* <label htmlFor="roomId" className="label">
@@ -103,7 +103,7 @@ const Home = () => {
       </div>
 
       <footer>
-        <p>&copy; 2026 CodeZ. All rights reserved.</p>
+        <p>&copy; 2026 CodeEz. All rights reserved.</p>
       </footer>
     </div>
   );
