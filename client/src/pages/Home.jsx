@@ -55,8 +55,8 @@ const Home = () => {
       <div className="formWrapper">
         <img
           className="homePageLogo"
-          src="/code-sync.png"
-          alt="code-sync-logo"
+          src="/codez-logo.png"
+          alt="codez-logo"
         />
         <h4 className="mainLabel">Paste invitation Room ID</h4>
         <div className="inputGroup">
@@ -102,7 +102,7 @@ const Home = () => {
       </div>
 
       <footer>
-        <p>&copy; 2026 Code Sync. All rights reserved.</p>
+        <p>&copy; 2026 CodeZ. All rights reserved.</p>
       </footer>
     </div>
   );
