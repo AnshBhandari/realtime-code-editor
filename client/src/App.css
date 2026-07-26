@@ -1,0 +1,177 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  padding: 20px;
+  border-radius: 10px;
+  background: #282a36;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 15px; */
+}
+
+.marginLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 14px;
+  /* background: #eee; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background: #50fa7b;
+  color: #282a36;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover {
+  background: #8cffb1;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.createInfo a {
+  text-decoration: none;
+}
+
+.createNewBtn {
+  text-decoration: none;
+  background: transparent;
+  color: #50fa7b;
+  border-bottom: 1px solid #50fa7b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.createNewBtn:hover {
+  background: #50fa7b;
+  color: #282a36;
+}
+
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #282a36;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.usersList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.user {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #50fa7b;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  background: #ff5555;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.leaveBtn:hover {
+  background: #ff8888;
+}
+
+.CodeMirror {
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.editorWrap {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorWrap .CodeMirror {
+  flex: 1;
+  height: 100%;
+}
