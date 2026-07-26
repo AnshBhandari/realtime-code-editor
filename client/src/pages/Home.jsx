@@ -53,11 +53,12 @@ const Home = () => {
   return (
     <div className="homePageWrapper">
       <div className="formWrapper">
-        <img
+        {/* <img
           className="homePageLogo"
-          src="/code-sync.png"
-          alt="code-sync-logo"
-        />
+          src="/CodeZ.png"
+          alt="CodeZ-logo"
+        /> */}
+        <h1 style={{ color: "#fff", fontFamily: "cursive" }}>CodeZ</h1>
         <h4 className="mainLabel">Paste invitation Room ID</h4>
         <div className="inputGroup">
           {/* <label htmlFor="roomId" className="label">
@@ -102,7 +103,7 @@ const Home = () => {
       </div>
 
       <footer>
-        <p>&copy; 2026 Code Sync. All rights reserved.</p>
+        <p>&copy; 2026 CodeZ. All rights reserved.</p>
       </footer>
     </div>
   );
